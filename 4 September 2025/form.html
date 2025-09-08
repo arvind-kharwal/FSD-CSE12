@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action.php">
+        <label> Username: </label>
+        <input type="text" placeholder="Username:">
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <h5>Select Your Section:</h5>
+        <label for="101">
+        <input type="radio" value="CSE11" name="Section" id="101">CSE11
+        </label>
+        <br><br>
+        <label for="102">
+            <input type="radio" value="CSE12" name="Section" id="102">CSE12
+        </label>
+        <h5>Select Your Courses:</h5>
+        <label for="201">
+            <input type="checkbox" value="C" id="201">C
+        </label>
+        <br>
+        <label for="202">
+            <input type="checkbox" value="C++" id="202">C++
+        </label>
+        <br>
+        <br>
+        <textarea name="message" placeholder="Enter your Message" rows="10" cols="50">Your Message</textarea>
+        <br><br>
+        <select name="Courses">
+            <option value="Btech">B.Tech</option>
+            <option value="Mtech">M.Tech</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
