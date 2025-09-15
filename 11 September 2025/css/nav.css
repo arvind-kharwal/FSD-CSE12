@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+
+button{
+    background-color: #f08840;
+}
+
+#logo{
+    background-color: #f08840;
+    font-size: 25px;
+}
