@@ -1,0 +1,29 @@
+#left{
+    height:70vh;
+    width:45%;
+    background-color: aqua;
+    padding:20px 15px 20px 12px;
+    text-align: justify;
+    border-radius: 20px;
+   
+}
+#right{
+    height:70vh;
+    width:45%;
+    background-color:orange;
+    padding:20px 15px 20px 12px;
+    text-align: justify;
+    border-radius: 20px;
+}
+div{
+    display: flex;
+    margin: 50px;
+}
+
+#sec{
+    height: 400px;
+    width:400px ;
+    border-radius:50%;
+    background-color: orange;
+    border: 4px black solid;
+}
