@@ -1,0 +1,30 @@
+.container{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+    border: 2px solid black;
+}
+.box1{
+    width:200px;
+    height: 200px;
+    background-color: aqua;
+    position: static;
+    top:50px;
+}
+.box2{
+    width:200px;
+    height: 200px;
+    background-color: rgb(255, 174, 0);
+    position:relative;
+    top:50px;
+}
+.box3{
+    width:200px;
+    height: 200px;
+    background-color: rgb(98, 0, 255);
+}
+.box4{
+    width:200px;
+    height: 200px;
+    background-color: rgb(225, 5, 104);
+}
