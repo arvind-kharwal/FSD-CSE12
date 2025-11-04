@@ -1,0 +1,20 @@
+div{
+    width:200px;
+    height: 200px;
+    background-color: rgb(178, 161, 195);
+    animation-name: example;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+
+}
+@keyframes example{
+    0% {background-color: aquamarine;top:0px;left:0px}
+    25% {background-color: rgb(228, 144, 8);top:0px;left:500px}
+    50% {background-color: rgb(234, 6, 59);top:500px;left:500px}
+    75% {background-color: rgb(161, 3, 209);top:500px;left:0px}
+    100% {background-color: rgb(1, 246, 66);top:0px;left:0px}
+}
