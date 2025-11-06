@@ -7,21 +7,48 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
-    
-<div class="container text-center mt-5">
-  <div class="row">
-    <div class="col-6">
-      <button type="button" class="btn btn-success">Success</button>
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
+
+<div class="container">
+  <h1>Background Color</h1>
+  <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+  <h1>Borders</h1>
+  <div class="border border-primary ">This is</div>
+  <h2>Text Colors</h2>
+  <p class="text-success">.text-success</p>
+  <h2>Opacity</h2>
+  <div class="opacity-100">Hello</div>
+  <div class="opacity-75">Hello</div>
+  <div class="opacity-50">Hello</div>
+  <div class="opacity-25">Hello</div>
+</div>
+
+<div class="container">
+  <div class="position-relative">
+  <div class="position-absolute top-0 start-0">Text</div>
+  <div class="position-absolute top-0 end-0">Text</div>
+  <div class="position-absolute top-50 start-50">Text</div>
+  <div class="position-absolute bottom-50 end-50">Text</div>
+  <div class="position-absolute bottom-0 start-0">Text</div>
+  <div class="position-absolute bottom-0 end-0">Text</div>
   </div>
 </div>
-<script src="/js/bootstrap.min.js"></script>
 
+<div class="container">
+<div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-primary rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+<hr>
+<div class="min-vw-100">Min-width 100vw</div>
+<div class="min-vh-100">Min-height 100vh</div>
+<div class="vw-100">Width 100vw</div>
+<div class="vh-100">Height 100vh</div>
+<hr>
+<div class="visible">Visible</div>
+<div class="invisible">invisible</div>
+</div>
+
+
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
