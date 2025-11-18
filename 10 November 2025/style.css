@@ -1,0 +1,17 @@
+:root{
+    --color1:#b01eff;
+    --bg:#efefef;
+    --yel:yellow;
+}
+body{
+    background-color: var(--bg);
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color:var(--color1) ;
+}
+
+.box2{
+    background-color: var(--yel);
+}
